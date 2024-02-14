@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Abhijith Nair, ABNAIR, 02/12/2024 -->
+<title>Valentine's Day
+</title>
+<meta charset="utf-8">
+<style>
+body {
+     text-align: center;
+    font-family: 'Arial', sans-serif;
+    margin-top: 20px;
+ background-color: #fde4ef;
+     color: #e91e63;
+    }
+h1, h2 {
+font-family: 'Garamond', serif;
+    }
+.valentine-image {
+max-width: 80%;
+     height: auto;
+ margin: 20px 0;
+    border-radius: 10px;
+ }
+.choice {
+font-size: 20px;
+ margin: 20px;
+padding: 10px;
+ cursor: pointer;
+text-decoration: none;
+display: inline-block;
+color: #d81b60;
+}
+.no:hover {
+ color: #fde4ef; /*text changes to background color to have disappearing effect!*/
+ }
+.response {
+ display: none;
+ margin-top: 20px;}
+</style>
+</head>
+<body>
+<h1>🌹 Will You Be My Valentine? 🌹</h1>
+<h2>Hadiah, this question is for you!</h2>
+<img src="heart.jpg" alt="Valentine's Day" class="valentine-image">
+<br>
+<br>
+<div class="choice"><a href="#yes" onclick="document.getElementById('yes-response').style.display='block';return false;">Yes 😊</a></div>
+<div class="choice no">No (?)</div>
+
+<div id="yes-response" class="response">
+<h3>💖 I love you, thank you for being the best! 💖</h3>
+    <p>I will see you soon! 🌟👩‍❤️‍👨💑</p>
+</div>
+</body>
+</html>
